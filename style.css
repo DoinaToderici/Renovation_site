@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-size: 29px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h2 a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Raleway";
+  line-height: 1.38;
+  font-size: 29px;
+  font-weight: 600;
+}
+h3 {
+  font-family: "Raleway";
+  font-size: 22px;
+  line-height: 90px;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+
+  display: inline-block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Raleway";
+  line-height: 1.38;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.button {
+  color: white;
+  background-color: #f4bc17;
+  font-family: "Raleway";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 23px 16px;
+  text-align: center;
+  cursor: pointer;
+  line-height: normal;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #f4bc17;
+  border: 2px solid #f4bc17;
+  background-color: #f5f5f5;
+}
+
+/* reset ul */
+
+header {
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.bara {
+  width: 70%;
+}
+
+.contact {
+  display: flex;
+  list-style: none;
+  
+
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  margin-left: 70px;
+}
+
+.contact li p {
+  margin-left: 30px;
+  color: #999999;
+}
+.contact li {
+  align-items: center;
+  display: flex;
+  padding: 13px 30px;
+  border: 1px solid #e2e6e7;
+  border-bottom: none;
+  border-top: none;
+}
+.contact li:nth-child(2) {
+  border: none;
+}
+.contact i {
+  color: grey;
+}
+.social {
+  width: 30%;
+  margin-right: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+.social i {
+  color: grey;
+  padding: 18px 20px;
+  border: 1px solid #e2e6e7;
+  border-bottom: none;
+  border-top: none;
+}
+.social i:nth-child(2) {
+  border: none;
+  padding: 18px 18px;
+}
+/** LOGO + NAV **/
+.logo_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding: 20px;
+}
+.logo a {
+  font-family: "Raleway", sans-serif;
+  color: #f4bc16;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 900;
+  padding: 26px 0;
+  margin-left: 70px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 26px 0;
+  margin-right: 70px;
+}
+.menu li a {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #444444;
+  padding: 12px 0 12px 26px;
+  border: none;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: #f4bc16;
+}
+/**  H1  **/
+
+.text_h1 {
+  width: 100%;
+  height: 530px;
+  background-image: url(img/slider/image_01.jpg);
+  padding-top: 70px;
+  background-repeat: no-repeat;
+}
+.text {
+  width: 400px;
+  height: 335px;
+  color: white;
+  background: rgba(38, 38, 40, 0.7);
+  margin-left: 70px;
+}
+.text h1 {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 29px;
+  line-height: 40px;
+  font-weight: 600px;
+  padding: 13px 35px;
+  border-bottom: 2px solid #f4bc16;
+  background-color: rgba(38, 38, 40, 0.68);
+}
+.text p {
+  text-align: left;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400px;
+  padding: 13px 35px;
+  margin-bottom: 25px;
+}
+.text a {
+  margin-left: 35px;
+}
+
+/** our services **/
+
+.services_fundal {
+  width: 100%;
+  background-color: #f5f5f5;
+  background-size: cover;
+  padding-top: 60px;
+}
+.services {
+  height: 800px;
+}
+.paragraf_1 p {
+  padding-right: 250px;
+  padding-left: 250px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 26px;
+}
+.services ul {
+  display: flex;
+  width: 1200px;
+  list-style: none;
+  text-align: center;
+  background-color: #ffffff;
+
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  margin: auto;
+}
+.services ul li {
+  width: 407px;
+  height: 450px;
+}
+.services ul li img {
+  width: 400px;
+  height: 277px;
+}
+.services ul li p {
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 24px;
+  margin-bottom: 10px;
+}
+.services .button {
+    margin: 55px auto;
+    display: block;
+    width: 10%;
+}
+
+.projects {
+  width: 100%;
+  padding-top: 60px;
+}
+.projects p {
+  padding-right: 250px;
+  padding-left: 250px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 26px;
+}
+.projects ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+      margin-block-start: 0em;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.projects ul li {
+  width: 25%;
+  height: 244px;
+
+}
+.projects ul li img {
+  width: 360px;
+  height: 244px;
+}
+.projects ul li img:hover{
+  <p>Solar systems</p>
+  <a href="#Viuw Project" >View project</a>
+}
+.projects .H3 {
+  display: flex;
+  justify-content: center;
+  background: #F5F5F5;
+  padding-top: 55px;
+  padding-bottom: 60px;
+}
+.projects .H3 a {
+  margin: 25px 50px;
+}
+
+
+.about_us {
+  width: 1200px;
+  height: 680px;
+  margin: auto;
+  padding-top: 60px;
+}
+.about_us p:nth-child(2) {
+  padding-right: 250px;
+  padding-left: 250px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+.about_us  ul {
+  list-style: none;
+}
+.about_us img {
+  border-radius: 50%;
+}
+.img_h4 {
+  display: flex;
+}
+
+.our_benefits ul li p{
+  font-family: 'Stremline-small';
+}
+
+
